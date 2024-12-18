@@ -1,17 +1,26 @@
 {
   "name": "gik339--grupp6-labb2",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js"
+    "start": "nodemon ./server/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrikpeterson69/gik339--grupp6-labb2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrikpeterson69/gik339--grupp6-labb2/issues"
+  },
+  "homepage": "https://github.com/patrikpeterson69/gik339--grupp6-labb2#readme",
+  "description": ""
 }

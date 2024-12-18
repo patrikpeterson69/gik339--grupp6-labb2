@@ -1,0 +1,138 @@
+/*  Använde oss av Paletton.com för att hämta färg schemat sedan skapade vi upp det såhär med hjälp av Alexanders gamla videos och chatGPT. 
+Kommer inte använda någon grid eller flexbox.*/
+
+:root {
+  --primary-1: #899093;
+  --primary-2: #687276;
+  --primary-3: #4e595e;
+  --primary-4: #364145;
+  --primary-5: #1c272b;
+
+  --secondary1-1: #eae5d9;
+  --secondary1-2: #bcb5a4;
+  --secondary1-3: #958e7b;
+  --secondary1-4: #6d6655;
+  --secondary1-5: #453e2c;
+
+  --secondary2-1: #eadcd9;
+  --secondary2-2: #bcabaa;
+  --secondary2-3: #957f7b;
+  --secondary2-4: #6d5955;
+  --secondary2-5: #45302c;
+}
+
+.bg-primary-1 {
+  background-color: var(--primary-1);
+}
+.bg-primary-2 {
+  background-color: var(--primary-2);
+}
+.bg-primary-3 {
+  background-color: var(--primary-3);
+}
+.bg-primary-4 {
+  background-color: var(--primary-4);
+}
+.bg-primary-5 {
+  background-color: var(--primary-5);
+}
+
+.bg-secondary1-1 {
+  background-color: var(--secondary1-1);
+}
+.bg-secondary1-2 {
+  background-color: var(--secondary1-2);
+}
+.bg-secondary1-3 {
+  background-color: var(--secondary1-3);
+}
+.bg-secondary1-4 {
+  background-color: var(--secondary1-4);
+}
+.bg-secondary1-5 {
+  background-color: var(--secondary1-5);
+}
+
+.bg-secondary2-1 {
+  background-color: var(--secondary2-1);
+}
+.bg-secondary2-2 {
+  background-color: var(--secondary2-2);
+}
+.bg-secondary2-3 {
+  background-color: var(--secondary2-3);
+}
+.bg-secondary2-4 {
+  background-color: var(--secondary2-4);
+}
+.bg-secondary2-5 {
+  background-color: var(--secondary2-5);
+}
+
+.text-primary-1 {
+  color: var(--primary-1);
+}
+.text-primary-2 {
+  color: var(--primary-2);
+}
+.text-primary-3 {
+  color: var(--primary-3);
+}
+.text-primary-4 {
+  color: var(--primary-4);
+}
+.text-primary-5 {
+  color: var(--primary-5);
+}
+
+.text-secondary1-1 {
+  color: var(--secondary1-1);
+}
+.text-secondary1-2 {
+  color: var(--secondary1-2);
+}
+.text-secondary1-3 {
+  color: var(--secondary1-3);
+}
+.text-secondary1-4 {
+  color: var(--secondary1-4);
+}
+.text-secondary1-5 {
+  color: var(--secondary1-5);
+}
+
+.text-secondary2-1 {
+  color: var(--secondary2-1);
+}
+.text-secondary2-2 {
+  color: var(--secondary2-2);
+}
+.text-secondary2-3 {
+  color: var(--secondary2-3);
+}
+.text-secondary2-4 {
+  color: var(--secondary2-4);
+}
+.text-secondary2-5 {
+  color: var(--secondary2-5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Oklart om det behövs hover + nav lista för knappar men var kul att fixa lite saker i css och html*/
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-button:hover {
+  background-color: #958e7b;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
